@@ -1,23 +1,130 @@
 aid: apsis19b1
+
 name: Apsis19b1
-description: 'Apsis19b1 is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.apsis.com/sites/default/files/2025-10/Apsis-by-efficy-og.png
+
+description: Apsis is a Nordic marketing technology company, part of the efficy Group, founded in Sweden in 2001. It provides an AI‑driven email
+  marketing, automation, SMS, event management and AI assistant platform serving over 3,600 businesses across Europe. The platform is GDPR‑compliant,
+  ISO‑certified and offers extensive integrations via Zapier and custom Open API.
+
 url: https://raw.githubusercontent.com/api-evangelist/apsis19b1/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-25'
+
 modified: '2026-09-25'
+
 tags:
-- Company
-apis: []
+- Marketing
+- Email
+- Automation
+- AI
+- GDPR
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: TermsOfService
+  url: https://www.apsis.com/terms-conditions-sale
+- type: Pricing
+  url: https://www.apsis.com/price-calculator
+- type: Plans
+  url: plans/apsis19b1-plans-pricing.yml
+- type: Spectral
+  url: rules/apsis19b1-rules.yml
+- type: JSONLD
+  url: json-ld/apsis19b1-context.jsonld
+- type: Vocabulary
+  url: vocabulary/apsis19b1-vocabulary.yml
+- type: DataModel
+  url: data-model/apsis19b1-data-model.yml
+- type: Compliance
+  url: https://www.apsis.com/security
+- type: Conformance
+  url: conformance/apsis19b1-conformance.yml
+- type: LLMsTxt
+  url: llms/apsis19b1-llms.txt
+- type: SecurityTxt
+  url: well-known/apsis19b1-status-security.txt
+- type: SecurityTxt
+  url: well-known/apsis19b1-helpdesk-security.txt
+- type: SecurityTxt
+  url: well-known/apsis19b1-help-security.txt
+- type: SecurityTxt
+  url: well-known/apsis19b1-apsispro-security.txt
+- type: WellKnown
+  url: well-known/apsis19b1-well-known.yml
+- type: Hosts
+  url: hosts/apsis19b1-hosts.yml
+- type: Vendors
+  url: vendors/apsis19b1-vendors.yml
+- type: StatusPage
+  url: https://apsispro.statuspage.io/
+- type: Security
+  url: https://www.apsis.com/security
+- type: Newsroom
+  url: https://www.apsis.com/sv/press/apsis-informerar-europeisk-data-infrastrukture-frankfurt-tyskland
+- type: Login
+  url: https://www.apsis.com/login
+- type: TrustCenter
+  url: security/apsis19b1-trust-center.yml
+- type: DomainSecurity
+  url: security/apsis19b1-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/apsis19b1
+  url: https://www.apsis.com
+- type: DeveloperPortal
+  url: https://www.apsis.com/platform/apsisone-api
+- type: Documentation
+  url: https://www.apsis.com/platform/apsisone-api
+- type: APIReference
+  url: https://www.apsis.com/platform/apsisone-api
+- type: GettingStarted
+  url: https://www.apsis.com/freetrial
+- type: Support
+  url: https://www.apsis.com/contact-us
+- type: Blog
+  url: https://www.apsis.com/blog/apsis-and-scratcher-partner-transform-customer-engagement
+- type: PrivacyPolicy
+  url: https://www.apsis.com/privacy
+
+apis:
+- aid: apsis19b1:apsis19b1-api
+  name: Apsis19b1 API
+  description: 'Apsis19b1 API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-09-25);
+    not the provider''s own document.'
+  humanURL: https://developer.apsis.com
+  baseURL: https://api.apsis.one
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/apsis19b1-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/apsis19b1-get-oauth-token-response-schema.json
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: API documentation at developer.apsis.com returns HTML shells for OpenAPI endpoints, no machine-readable spec found.
+  evidence:
+  - url: https://developer.apsis.com/openapi.json
+    status: 200
+  checked: 2026-09-25
+x-enrichment:
+  date: '2026-09-25'
+  status: enriched
+  artifacts_added: 23
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local

@@ -1,0 +1,23 @@
+generated: '2026-09-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.apsis.com/price-calculator
+sources:
+- https://www.apsis.com/price-calculator
+name: Apsis19b1 pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Send
+  price_text: EUR 110 /month
+  price: 110
+  description: Up to 1,000 contacts
+- name: Automate
+  price_text: EUR 300 /month
+  price: 300
+  description: Up to 5,000 contacts
+- name: Grow
+  price_text: EUR 450 /month
+  price: 450
+  description: Up to 5,000 contacts
+docs: https://www.apsis.com/price-calculator

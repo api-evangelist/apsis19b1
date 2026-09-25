@@ -1,0 +1,24 @@
+generated: '2026-09-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.apsis.com/about-us/policies/privacy-policy
+sources:
+- https://www.apsis.com/about-us/policies/privacy-policy
+standards:
+- id: gdpr
+  conforms: true
+  evidence: The General Data Protection Regulation 2016/679 (hereinafter the “GDPR”) put into effect on May 25, 2018, aims at protecting your
+    personal data ...
+- id: openapi-3.1
+  conforms: true
+  evidence: the document declares 3.1.0
+- id: oauth2
+  conforms: false
+  evidence: no securitySchemes declared
+- id: rfc9457
+  conforms: false
+  evidence: no response declares application/problem+json
+- id: idempotency
+  conforms: false
+  evidence: no idempotency key parameter on mutating operations
+docs: https://www.apsis.com/about-us/policies/privacy-policy

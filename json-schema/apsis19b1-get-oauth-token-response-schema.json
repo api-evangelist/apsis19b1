@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/apsis19b1/main/json-schema/apsis19b1-get-oauth-token-response-schema.json",
+  "title": "GetOauthTokenResponse",
+  "x-generated": "2026-09-25",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/apsis19b1-openapi-generated.yml#/components/schemas/GetOauthTokenResponse",
+  "type": "object",
+  "properties": {
+    "access_token": {
+      "type": "string"
+    },
+    "expires_in": {
+      "type": "integer"
+    },
+    "token_type": {
+      "type": "string"
+    }
+  }
+}

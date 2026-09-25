@@ -1,0 +1,23 @@
+generated: '2026-09-25'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.apsis.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec  3 01:36:13 2026 GMT
+  hsts: true
+  hsts_max_age: 15768000
+domains:
+- domain: apsis.com
+  dnssec: false
+  caa:
+  - 0 issuewild "ssl.com"
+  - 0 iodef "mailto:cloudengineers@apsis.com"
+  - 0 issue "amazon.com"
+  - 0 issue "comodoca.com"
+  - 0 issue "digicert.com; cansignhttpexchanges=yes"
+  - 0 issue "letsencrypt.org"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject

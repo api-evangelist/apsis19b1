@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@vocab": "https://apsis.com/schema#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "apsis19b1": "https://apsis.com/schema#",
+    "GetOauthTokenResponse": "apsis19b1:GetOauthTokenResponse",
+    "access_token": {
+      "@id": "apsis19b1:access_token",
+      "@type": "xsd:string"
+    },
+    "expires_in": {
+      "@id": "apsis19b1:expires_in",
+      "@type": "xsd:integer"
+    },
+    "token_type": {
+      "@id": "apsis19b1:token_type",
+      "@type": "xsd:string"
+    }
+  },
+  "@type": "schema:Dataset",
+  "schema:name": "Apsis19b1 API JSON-LD context",
+  "schema:description": "A JSON-LD @context for the objects Apsis19b1's own API contract declares: one class per component schema, one property per declared field, typed from the contract. Derived by script (derive-json-ld.py, 2026-09-25) from openapi/_ae-authored/apsis19b1-openapi-generated.yml.",
+  "dcterms:created": "2026-09-25",
+  "dcterms:source": [
+    "openapi/_ae-authored/apsis19b1-openapi-generated.yml"
+  ]
+}

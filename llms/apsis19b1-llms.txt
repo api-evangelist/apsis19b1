@@ -1,0 +1,100 @@
+# Apsis
+
+> Apsis One is an AI-driven, all-in-one marketing platform combining email marketing, SMS, marketing automation, event management, forms, surveys, website tracking, and an AI Assistant for email content. Founded in Sweden in 2001 and now part of the efficy Group, it is GDPR-compliant and ISO-certified, with all data stored and processed within the EU, and is trusted by over 3,600 businesses across the Nordics and Europe.
+
+Notes for interpreting this site:
+
+- Apsis One is the current, recommended platform. Apsis Pro is the original, still-supported email platform for existing customers.
+- Apsis One integrates with CRM systems including Tribe, efficy CRM, Lime CRM, Microsoft Dynamics, webCRM, and Salesforce, and connects to 5,000+ apps via Zapier. An open API is available.
+- The AI Assistant supports eight languages, keeps all data in Europe, and never stores, shares, or trains on prompt data.
+- A 14-day free trial with full platform access is available, no credit card required.
+- The site is available in English, Swedish, Danish, Norwegian, and Finnish.
+
+## Platform
+
+- [Apsis One overview](https://www.apsis.com/platform/apsisone-overview): Complete overview of the unified marketing platform.
+- [Email marketing](https://www.apsis.com/platform/email-marketing): Email campaign creation and management tools.
+- [Marketing automation](https://www.apsis.com/platform/marketing-automation): Automated customer journey workflows.
+- [AI Assistant](https://www.apsis.com/platform/ai-assistant): AI-powered content creation and campaign optimisation.
+- [Forms and pages](https://www.apsis.com/platform/forms-and-pages): Landing pages and data collection forms.
+- [Event management](https://www.apsis.com/platform/event-management-tool): Event registration and management.
+- [SMS marketing](https://www.apsis.com/platform/sms-marketing): SMS campaign tools.
+- [Website tools](https://www.apsis.com/platform/website-tools): Website personalisation and tracking.
+- [CRM](https://www.apsis.com/platform/crm): Customer relationship management features.
+- [Dashboards and trends](https://www.apsis.com/platform/dashboards-and-trends): Analytics and reporting.
+- [Integrations](https://www.apsis.com/platform/our-integrations): Third-party app integrations including Zapier.
+- [API](https://www.apsis.com/platform/apsisone-api): Developer API documentation.
+
+## Solutions by industry
+
+- [NGOs](https://www.apsis.com/solution/industry/non-profit-organisations-ngos): Non-profit organisations and charities.
+- [Membership business](https://www.apsis.com/solution/industry/membership): Membership organisations and Subscription-based services.
+- [Financial services](https://www.apsis.com/solution/industry/financial-services): Financial services companies.
+- [Insurance](https://www.apsis.com/solution/industry/insurance): Marketing solutions for Insurance companies.
+- [Real estate agencies](https://www.apsis.com/solution/industry/real-estate): Martech for for real estate agencies.
+
+## Solutions by use case
+
+- [Newsletters](https://www.apsis.com/use-case/newsletters): Emailmarketing, strategies and best practice.
+- [Lead nurturing](https://www.apsis.com/use-case/lead-nurturing): Lead  Nurturing.
+- [Personalisation](https://www.apsis.com/use-case/personalisation): Advanced personalisation techniques.
+- [Loyalty relationship magement](https://www.apsis.com/use-case/loyalty-relationship-management): Loyalty programmes, Brand Ambassador and marketing automation.
+- [Audience engagement](https://www.apsis.com/use-case/audience-engagement): An engaged audience is your most valuable marketing asset.
+
+
+## Resources
+
+- [Blog](https://www.apsis.com/blog): Marketing insights and industry news.
+- [Knowledge Base](https://help.apsis.one/en): Support documentation and guides for Apsis One.
+- [Webinars on demand](https://www.apsis.com/webinars): Recorded webinar sessions.
+- [Mastering Apsis webinar series](https://www.apsis.com/mastering-apsis-5-part-webinar-series): Five-part educational webinar series.
+- [Handbooks and reports](https://www.apsis.com/handbooks-whitepapers): Marketing handbooks and whitepapers.
+- [Email Marketing Benchmarks 2025](https://www.apsis.com/form-email-benchmark-report): Industry benchmark data.
+- [Email Marketing Handbook](https://www.apsis.com/knowledge/resources/email-marketing-handbook): Comprehensive email marketing guide.
+- [Marketing Activities Planner 2026](https://www.apsis.com/form-page-en-excelcalendar): Downloadable content calendar template.
+- [Events and seminars](https://www.apsis.com/events-seminars): Upcoming events and training.
+- [Professional services](https://www.apsis.com/consultation): Expert consultation and implementation services.
+- [What is marketing automation](https://www.apsis.com/what-is-marketing-automation): Educational content on marketing automation.
+- [Email Geeks community](https://www.apsis.com/resources/email-geeks-community): Community for email marketing professionals.
+
+## Company
+
+- [About us](https://www.apsis.com/about-us): Company background and mission.
+- [Why Apsis](https://www.apsis.com/why-apsis): Platform differentiators and benefits.
+- [Customer stories](https://www.apsis.com/customer-cases): Success stories from real customers.
+- [Press room](https://www.apsis.com/about-us/pressroom): Press releases and media resources.
+- [Careers](https://jobs.efficy.com/): Job opportunities at Apsis and efficy.
+- [Pricing](https://www.apsis.com/price-calculator): Pricing calculator and plans.
+- [Contact us](https://www.apsis.com/contact-us): Contact information.
+- [Support](https://www.apsis.com/support): Customer support resources.
+- [Free trial](https://www.apsis.com/freetrial): 14-day free trial signup.
+- [Book a demo](https://www.apsis.com/bookademo): Schedule a product demonstration.
+
+## Language versions
+
+- [English](https://www.apsis.com/): Main site.
+- [Svenska](https://www.apsis.com/sv): Swedish version.
+- [Suomi](https://www.apsis.com/fi): Finnish version.
+- [Dansk](https://www.apsis.com/da): Danish version.
+- [Norsk](https://www.apsis.com/no): Norwegian version.
+
+## Optional
+
+- [WWF Norway](https://www.apsis.com/customer-case/wwf): Customer story on building long-lasting relationships with their supporters.
+- [Svenska Sjö](https://www.apsis.com/case-svenska-sjo): Customer story on rapid campaign creation and launch.
+- [Bilmånsson](https://www.apsis.com/customercase-bilmansson): Customer story on engaging customers outside traditional buying windows.
+- [Götene Hus](https://www.apsis.com/customer-case-gotenehus): Customer story on standing out in a noisy market.
+- [Filmweb](https://www.apsis.com/customer-case/filmweb): Customer story on visually strong and structured newsletters.
+- [Developer hub](https://developer.apsis.com/): API documentation and developer resources.
+- [Apsis Pro Knowledge Base](https://helpdesk.anpdm.com/en): Documentation for the legacy Apsis Pro platform.
+- [Apsis One status](https://status.apsis.one/): Apsis One operational status.
+- [Apsis Pro status](https://apsispro.statuspage.io/): Apsis Pro operational status.
+- [Sitemap](https://www.apsis.com/sitemap.xml): Full XML sitemap.
+- [Privacy policy](https://www.apsis.com/about-us/policies/privacy-policy): Data protection and privacy information.
+- [Anti-spam policy](https://www.apsis.com/about-us/policies/apsis-anti-spam-policy): Email compliance policies.
+- [Terms and conditions](https://www.apsis.com/terms-conditions-sale): General terms and conditions of sale.
+- [Apsis One login](https://app.apsis.one/): Main Apsis One platform login.
+- [Apsis One APAC login](https://enter-apac.apsis.one/): Apsis One Asia-Pacific region login.
+- [Apsis Pro login](https://www.anpdm.com/): Apsis Pro platform login.
+- [Apsis Pro Asia login](https://www.anpasia.com/): Apsis Pro Asia platform login.
+- [efficy corporate site](https://www.efficy.com/): Parent company website.
