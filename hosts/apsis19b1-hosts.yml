@@ -49,10 +49,13 @@ hosts:
   found_by:
   - pointer
   - docs-index
+  - vendor-detect
   types:
   - StatusPage
   serves:
   - docs
+  - status-page
+  vendor: statuspage
   registrable_domain: statuspage.io
   role: status
   relation: other-domain
@@ -73,9 +76,12 @@ hosts:
 - host: enter-apac.apsis.one
   found_by:
   - docs-index
+  - vendor-detect
   types: []
   serves:
   - docs
+  - identity
+  vendor: auth0
   registrable_domain: apsis.one
   role: other
   relation: other-domain
@@ -153,6 +159,8 @@ hosts:
   - well-known
   - vendor-detect
   types:
+  - TermsOfService
+  - Pricing
   - Compliance
   - Security
   - Newsroom
