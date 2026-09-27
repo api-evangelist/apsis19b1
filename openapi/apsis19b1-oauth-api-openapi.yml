@@ -1,0 +1,53 @@
+openapi: 3.2.0
+info:
+  title: Apsis19b1 OAuth API
+  version: '2026-09-25'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-09-25: 4 operation(s) read from 2 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; Apsis19b1 has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 2
+    documentation: 2
+    pages-with-code: 2
+    pages-read: 2
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-09-25'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://developer.apsis.com
+  - https://developer.apsis.com/\
+servers:
+- url: https://api.apsis.one
+tags:
+- name: OAuth
+paths:
+  /oauth/token:
+    get:
+      operationId: get_oauth_token
+      tags:
+      - OAuth
+      summary: GET /oauth/token
+      x-source: https://developer.apsis.com
+      responses:
+        '200':
+          description: Success (shape read from the example response on the page)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetOauthTokenResponse'
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: "curl -- location -- request POST 'https://api.apsis.one/oauth/token'  -- header 'Content-Type: application/json'  -- data - raw ' { \n \"grant_type\" : \"client_credentials\" , \n \"client_id\" : \"b49b39a0-82a1-11ec-8017-5d554e8551d6\" , \n \"client_secret\" : \"4n0TpfkaedYOkIljy0mtAs4Y2r2qR5XGrBhpt20Cf3LYaE45piAPunlVAq4jbJBV\" \n } '\n The response will contain your access token along with the scheme and expirat"
+components:
+  schemas:
+    GetOauthTokenResponse:
+      type: object
+      properties:
+        access_token:
+          type: string
+        expires_in:
+          type: integer
+        token_type:
+          type: string

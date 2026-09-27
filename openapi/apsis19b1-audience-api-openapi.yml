@@ -1,0 +1,86 @@
+openapi: 3.2.0
+info:
+  title: Apsis19b1 Audience API
+  version: '2026-09-25'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-09-25: 4 operation(s) read from 2 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; Apsis19b1 has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 2
+    documentation: 2
+    pages-with-code: 2
+    pages-read: 2
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-09-25'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://developer.apsis.com
+  - https://developer.apsis.com/\
+servers:
+- url: https://api.apsis.one
+tags:
+- name: Audience
+paths:
+  /audience/keyspaces:
+    get:
+      operationId: get_audience_keyspaces
+      tags:
+      - Audience
+      summary: GET /audience/keyspaces
+      x-source: https://developer.apsis.com
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: "curl -- location -- request GET 'https://api.apsis.one/audience/keyspaces'  -- header 'Authorization: Bearer eyJhbGciOiJSUz...' \n Video guide \n Here's a video guide that covers all of the above topics: \n✉️ Have questions?\n Contact customerservice.apsis@efficy.com to learn more \n Limits Introduction \n This page provides the information about the current limits implemented in Apsis One API. \n Read m"
+  /audience/keyspaces/{keyspaceDiscriminator}/profiles/{profileKey}:
+    delete:
+      operationId: delete_audience_keyspaces_keyspaceDiscriminator_profiles_profileKey
+      tags:
+      - Audience
+      summary: Delete a profile
+      description: Profile will be permanently deleted along with its consents and events. This operation is permanent and irreversible.
+      x-source: https://developer.apsis.com
+      parameters:
+      - name: keyspaceDiscriminator
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: profileKey
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /audience/keyspaces/{keyspaceDiscriminator}/profiles/{profileKey}/locks:
+    put:
+      operationId: put_audience_keyspaces_keyspaceDiscriminator_profiles_profileKey_locks
+      tags:
+      - Audience
+      summary: Lock a profile
+      description: Profile will be locked and its data permanently deleted. Profile lock is permanent and irreversible.
+      x-source: https://developer.apsis.com
+      parameters:
+      - name: keyspaceDiscriminator
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: profileKey
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation

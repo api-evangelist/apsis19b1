@@ -101,19 +101,30 @@ common:
   url: https://www.apsis.com/privacy
 
 apis:
-- aid: apsis19b1:apsis19b1-api
-  name: Apsis19b1 API
-  description: 'Apsis19b1 API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-09-25);
-    not the provider''s own document.'
+- aid: apsis19b1:apsis19b1-audience-api
+  name: Apsis19b1 Audience API
+  description: The Audience API from Apsis19b1 — 3 operation(s) for audience.
   humanURL: https://developer.apsis.com
   baseURL: https://api.apsis.one
+  tags:
+  - Audience
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/apsis19b1-openapi-generated.yml
-    x-provenance: generated
+    url: openapi/apsis19b1-audience-api-openapi.yml
   - type: JSONSchema
     url: json-schema/apsis19b1-get-oauth-token-response-schema.json
-
+- aid: apsis19b1:apsis19b1-oauth-api
+  name: Apsis19b1 OAuth API
+  description: The Oauth API from Apsis19b1 — 1 operation(s) for oauth.
+  humanURL: https://developer.apsis.com
+  baseURL: https://api.apsis.one
+  tags:
+  - Oauth
+  properties:
+  - type: OpenAPI
+    url: openapi/apsis19b1-oauth-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/apsis19b1-get-oauth-token-response-schema.json
 x-coverage:
   state: unreadable
   reason: js-rendered-docs
