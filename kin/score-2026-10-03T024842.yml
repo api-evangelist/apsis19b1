@@ -1,0 +1,54 @@
+# Kin Score artifact — apsis19b1 — 2026-10-03T024842
+# The API Evangelist rating (https://github.com/api-evangelist/kin-score). Generated; do not edit.
+---
+kin_score:
+  slug: apsis19b1
+  schema_version: 0.23.0
+  scored_at: '2026-10-03'
+  run_ts: 2026-10-03T024842
+  composite: 48.2
+  band: developing
+  facets:
+    discoverability: 75.0
+    contract_quality: 18.1
+    contract_governance: 35.6
+    operational_transparency: 26.3
+    developer_ergonomics: 45.2
+    access_clarity: 92.1
+  agent_readiness:
+    score: 36.0
+    band: agent-ready
+    dimensions:
+      spec_presence: true
+      agentic_access: false
+      reversibility_documented: false
+      mcp_server: false
+      auth_clarity: served
+      idempotency: false
+      error_semantics: false
+      openapi_examples: verified
+      rate_limit_signal: false
+      event_surface_described: false
+      agent_skills: false
+      well_known_catalog: true
+      consent_identity: false
+      agent_card: false
+      dry_run_mode: false
+      delegated_identity: served
+      protected_resource_metadata: false
+      dynamic_client_registration: true
+      agentic_commerce: false
+  regulatory:
+    applies: true
+    regime: Horizontal (data, software, accessibility, platform)
+    regime_id: horizontal
+    score: 27.3
+    matched_via: fallback
+  provenance:
+    mcp: derived
+    conformance: first-party
+    contracts:
+      total: 3
+      derived: 3
+      coverage: 100.0
+      callable: 100.0

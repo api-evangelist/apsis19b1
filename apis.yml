@@ -27,6 +27,12 @@ tags:
 - Marketing
 - Email
 - Automation
+- Artificial Intelligence
+- GDPR
+tags_raw:
+- Marketing
+- Email
+- Automation
 - AI
 - GDPR
 
@@ -107,6 +113,8 @@ apis:
   humanURL: https://developer.apsis.com
   baseURL: https://api.apsis.one
   tags:
+  - Audiences
+  tags_raw:
   - Audience
   properties:
   - type: OpenAPI
@@ -119,6 +127,8 @@ apis:
   humanURL: https://developer.apsis.com
   baseURL: https://api.apsis.one
   tags:
+  - Authentication
+  tags_raw:
   - Oauth
   properties:
   - type: OpenAPI
