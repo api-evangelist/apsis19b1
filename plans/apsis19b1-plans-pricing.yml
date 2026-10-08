@@ -21,3 +21,28 @@ plans:
   price: 450
   description: Up to 5,000 contacts
 docs: https://www.apsis.com/price-calculator
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: Send
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Automate
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Grow
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
